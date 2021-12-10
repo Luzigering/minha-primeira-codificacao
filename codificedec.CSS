@@ -42,7 +42,7 @@ label{
     width: 500px;
             height: 2em;
                     border-style: none;
-                                    margin-left: 15%;
+                                    margin-left: 30%;
                                         font-size: 25px;
                                             border-radius: 10px;
 }
@@ -59,10 +59,11 @@ p{
 }
 #Selector{
     font-size: 25px;
+        margin-left: 43%
 }
 button{ 
   background-color: rgb(155, 6, 6);
-    margin-left: 35%;
+    margin-left: 43%;
         margin-top: 3%;
         font-family: "Chakra Petch", sans-serif;
             font-size: 30px;
