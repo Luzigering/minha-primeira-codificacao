@@ -1,0 +1,96 @@
+@font-face{
+    font-family: "Chakra Petch", Medium 500;
+        src: url("https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500&display=swap")
+}
+
+
+body{
+   margin:0%;
+    font-family: "Chakra Petch", sans-serif;
+    background-color: yellow;
+    text-shadow: 2px 2px white;
+    background: url("https://cecultculturadigital.files.wordpress.com/2016/07/giphy.gif");
+}
+.pai{
+    display:flex;
+        margin-top: 3%;
+            justify-content: center;
+}
+h1{
+    text-align:center;
+    font-size: 40px
+}
+.caixa{
+    background: black;
+        border-style:inset;
+          position: relative;
+                color: rgb(161, 8, 8);
+                   
+}
+.campos-de-selecao{
+       text-align: center;
+                font-size: 30px;
+                    line-height: 10px;
+}
+label{
+    margin-left: 35%;
+}
+.j{
+    display: block;
+}
+#sz{
+    width: 500px;
+            height: 2em;
+                    border-style: none;
+                                    margin-left: 15%;
+                                        font-size: 25px;
+                                            border-radius: 10px;
+}
+.div1{
+    color: red
+}
+p{
+    align-items: center;
+}
+#myDIV{
+   margin-top: 50px;
+    display:none;
+    
+}
+#Selector{
+    font-size: 25px;
+}
+button{ 
+  background-color: rgb(155, 6, 6);
+    margin-left: 35%;
+        margin-top: 3%;
+        font-family: "Chakra Petch", sans-serif;
+            font-size: 30px;
+            text-shadow: white 2px 2px;
+}
+#metodo{
+        color: black;
+}
+.results{
+    display: none;
+    border: 2px red solid;
+    color:white;
+    text-shadow: red 2px 2px;
+    background-color: black;
+}
+Select{
+    margin-left: 37%;
+        font-family: "Chakra Petch", sans-serif;
+            text-shadow: white 2px 2px;
+            background-color: rgb(155, 6, 6);
+}
+Select:hover{
+    background: black;
+        color: white;
+            text-shadow: 2px 2px red
+}
+@media all (max-width: 700px), (orientation: portrait){
+  h1{font-size: 80px} .caixa{width: 700px} .pai{width: 800px}
+  .campos-de-selecao{font-size: 60px; line-height: 60px;} #Selector{font-size: 50px;}Select{margin-left: 25%}
+  #sz{font-size: 40px} button{font-size: 50px; margin-left: 27%} 
+}
