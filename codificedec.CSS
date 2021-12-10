@@ -91,7 +91,7 @@ Select:hover{
             text-shadow: 2px 2px red
 }
 @media all (max-width: 700px), (orientation: portrait){
-  h1{font-size: 80px} .caixa{width: 700px} .pai{width: 800px}
-  .campos-de-selecao{font-size: 60px; line-height: 60px;} #Selector{font-size: 50px;}Select{margin-left: 25%}
-  #sz{font-size: 40px} button{font-size: 50px; margin-left: 27%} 
+  h1{font-size: 80px} .caixa{width: 700px} .pai{width: 950px}
+  .campos-de-selecao{font-size: 60px; line-height: 60px;} #Selector{font-size: 50px;margin-left: 25%}
+  #sz{font-size: 40px; margin-left: 10%;} button{font-size: 50px; margin-left: 27%} #metodo{font-size:50px; width:75px}
 }
