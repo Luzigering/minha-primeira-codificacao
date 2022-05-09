@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+body{
+   margin:0%;
+    font-family: "Roboto", sans-serif;
+
+}
+header{
+    width: 100%;
+    background-color: black;
+    height: 12vh;
+}
+.pai{
+    display:flex;
+        margin-top: 2%;
+            justify-content: center;
+}
+h1{
+    text-align: center;
+    font-size: 5vh;
+    margin-left: 10%;
+    margin-right: 10%;
+  
+}
+.caixa{
+    background-color: rgba(255, 201, 9, 0.9);
+        border: 3px solid black;
+            border-radius: 10px;
+                position: relative;
+                    width: 90%;
+
+}
+.campos-de-selecao{
+       text-align: center;
+                font-size: 5vh;
+                    line-height: 1vh;
+}
+label{
+    margin-left: 35%;
+}
+.j{
+    display: block;
+        
+}
+#sz{
+            width: 80vh;
+            height: 5vh;
+            border: 1px solid #000000;
+            border-radius: 20px;
+            text-align: center;
+}
+.pos2{
+    display: flex;
+    justify-content: center;
+}
+.pos5{
+    display: flex;
+    justify-content: center;
+}
+.div1{
+    color: red
+}
+p{
+    align-items: center;
+    color: black;
+    
+}
+h2{
+    font-size: 5vh;
+}
+#myDIV{
+   margin-top: 1%;
+   text-align: left;
+    display:none;
+}
+.pos3{
+    justify-content: center;
+    display: flex;
+}
+#condida{
+    display: none;
+}
+#Selector{
+    font-size: 4vh;
+
+}
+button{ 
+  background-color: white;
+        margin-top: 3%;
+        font-family: "Roboto", sans-serif;
+            font-size: 5vh;
+                border-radius: 13px;
+}
+#metodo{
+        color: black;
+        width: 7vh;
+}
+.pos1{
+    display:  flex;
+    justify-content: center;
+}
+.pos4{
+    display:  flex;
+    justify-content: center;
+}
+.pos{
+    display:  flex;
+    justify-content: center;
+}
+#Resultado{
+    color: white;
+    text-shadow: black 2px 2px;
+}
+.results{
+    display: none;
+    border: 1px white solid;
+    background-color: rgba(255, 215, 2, 0.18);
+    width: 170vh;
+    margin-bottom: 0.5%;
+}
+Select{
+        font-family: "Roboto", sans-serif;
+        width:50vh;
+}
+Select:hover{
+    background: black;
+        color: white
+}
