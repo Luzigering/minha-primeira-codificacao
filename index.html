@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+    <html lang="PT-BR">
+        <head>
+            <meta charset="UTF-8">
+                <title>Codificação de Cifra de César e Base 64!!</title>
+                    <link rel="stylesheet" href="./index.CSS">
+                        <link rel="preconnect" href="https://fonts.googleapis.com">
+                            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+                                <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500&display=swap" rel="stylesheet">
+                                                                             </head>
+
+<!-- Primeiramente teremos o nosso campo de entrada textual, onde entrará o texto a ser codificado -->
+<!-- Dois campos de seleção com as opções "Cifra de César e Base 64"
+     que ao selecionado, usando java e document.querySelector, innerText, exibiremos um novo campo 
+     radial (radial buttoms), onde hávera os textos "Codificar" ou "Decodificar".
+     Após o botão radial selecionado exibiremos um botão que se relacione com a opção desejada!
+     Esse será o botão de ação que, quando for clicado executará a codificação ou decodificação da mensagem.-->
+<body>
+    <header class="cabecalho"></header>
+    <main class="pai">
+        <div class="caixa">
+            <div class="pos1">
+          <span class="j">
+            <h1>Digite o elemento (string/number) que receberá a decodificação/ codificação!</h1>
+              </div><div class="pos2"><input Id="sz" placeholder="insira aqui seu texto"></input></div>
+                                                                     </span>
+                                                                  
+                <span class="campos-de-selecao">
+                    
+                    <h2>Usaremos:</h2>
+                    <div class="pos4">
+                        <Select Id="Selector" >
+                        <option value="anth">Selecione</option>
+                         <option value="cifra" >Cifra de César</option>                 
+                            <option value="base">Base 64</option>
+                                                            </Select></div>
+                                                            
+                                                                    <div Id="condida">
+                                                                        <h2>Insira um método</h2>
+                                                            <input Id="metodo" type="number" ></input>
+                                                            </div>
+                                                            <div class="pos3">
+                                <div Id="myDIV">
+                                    <input Id= "i" type="radio" name="actbt" value="codificador">CODIFICAR</input><br><br>
+                                        <input Id="j" type="radio" name="actbt" value="decodificador">DECODIFICAR</input>
+                                    </div></div>                <div class="pos5">
+                                                                <button type="submit">Confirmar</button></div>
+                                                                <div class="pos">
+                                                                <div class="results">
+                                                                    <h2 Id="Resultado">Resultado:</h2>
+                                                                  <p Id="exibemensagem"></p>
+
+                                                                </div>
+                                                            </div>
+                                                                        </div>
+                                                                            </main>
+                                                                                </body>
+ <script src="./index.js"></script>                                                                               
+</html>
