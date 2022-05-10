@@ -32,9 +32,10 @@ h1{
 
 }
 .campos-de-selecao{
+    margin-top: 5vh;
        text-align: center;
                 font-size: 5vh;
-                    line-height: 1vh;
+                    line-height: 30%;
 }
 label{
     margin-left: 35%;
@@ -44,11 +45,12 @@ label{
         
 }
 #sz{
-            width: 80vh;
+            width: 50%;
             height: 5vh;
             border: 1px solid #000000;
-            border-radius: 20px;
+            border-radius: 10vh;
             text-align: center;
+            font-size: 2.5vh;
 }
 .pos2{
     display: flex;
@@ -70,13 +72,14 @@ h2{
     font-size: 5vh;
 }
 #myDIV{
-   margin-top: 1%;
    text-align: left;
     display:none;
+    
 }
 .pos3{
     justify-content: center;
     display: flex;
+    margin-top: 3%;
 }
 #condida{
     display: none;
@@ -87,14 +90,16 @@ h2{
 }
 button{ 
   background-color: white;
-        margin-top: 3%;
+        margin-top: 1%;
         font-family: "Roboto", sans-serif;
             font-size: 5vh;
                 border-radius: 13px;
 }
 #metodo{
         color: black;
-        width: 7vh;
+        width: 10vh;
+        height: 4vh;
+        font-size: 4vh;
 }
 .pos1{
     display:  flex;
