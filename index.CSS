@@ -86,6 +86,7 @@ h2{
 }
 #Selector{
     font-size: 4vh;
+    box-sizing: content-box;
 
 }
 button{ 
@@ -97,10 +98,20 @@ button{
 }
 #metodo{
         color: black;
-        width: 10vh;
+        width: 15vh;
         height: 4vh;
         font-size: 4vh;
 }
+input[type="radio"] {
+    background-color: #fff;
+    margin: 0px;
+    font: inherit;
+    color: currentColor;
+    width: 3vh;
+    height: 3.15vh;
+    border: 0.15em solid currentColor;
+    border-radius: 50%;
+  }
 .pos1{
     display:  flex;
     justify-content: center;
@@ -126,7 +137,7 @@ button{
 }
 Select{
         font-family: "Roboto", sans-serif;
-        width:50vh;
+        width:20%;
 }
 Select:hover{
     background: black;
